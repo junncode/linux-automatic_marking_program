@@ -1,6 +1,6 @@
 # linux-automatic_marking_program
 > This is program that automatic mark students .txt and .c files compare with answer.
-
+![automark](./screenshot/automark.png)
   - It contains an answer directory (ANS_DIR hear).
   - It contains a students directory (STD_DIR hear) and they contain each students' answer directory (20190001, 20190002, ... here).
   - When you run this program, you can make 'score.csv' report card that contains students score.
@@ -8,14 +8,14 @@
 
 ## How It Works
 
-###Linux & Mac:
+### Linux & Mac:
 
- 1. compile
+ - compile
 ```sh
 gcc ssu_score.c -o ssu_score
 ```
 
- 1. see usage
+ - see usage
  ```sh
  ./ssu_score -h
 ```
